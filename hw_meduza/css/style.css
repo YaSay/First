@@ -1,0 +1,81 @@
+@import "reset.css";
+@font-face {
+  src: url(../fonts/PT_Sans-Web-Bold.ttf);
+  font-family: PT_Sans;
+  font-weight: bold;
+}
+@font-face {
+  src: url(../fonts/PT_Sans-Web-Regular.ttf);
+  font-family: PT_Sans;
+  font-weight: normal;
+}
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&subset=cyrillic');
+
+body {
+  margin: 40px;
+  height: 438px;
+  width: 408px;
+  border: 5px solid #f2f2f2;
+}
+.container {
+  height: 436px;
+  width: 406px;
+  border: 1px solid #DDDDDD;
+  border-radius: 2px;
+  background-color: white;
+  font-family: PT_Sans;
+  color: black;
+  text-decoration: none;
+}
+.bigPicture {
+  height: 270px;
+  width: 406px;
+  position: relative;
+  overflow: hidden;
+}
+.bigPicture img {
+  position: absolute;
+  height: 100%;
+}
+section {
+  width: 380px;
+  margin: auto;
+}
+.rubric {
+  height: 14px;
+  width: 62px;
+  border: 1px solid #C09A65;
+  box-sizing: border-box;
+  border-radius: 7%;
+  margin-top: 12px;
+}
+.rubric a {
+  margin: 0 0 0 5px;
+  vertical-align: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+  color: #C09A65;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.header {
+  margin-top: 7px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.header a {
+  color: black;
+  text-decoration: none;
+  line-height: 24px;
+}
+.header span {
+  font-family: 'PT Serif', serif;
+  font-weight: lighter;
+  font-size: 19px;
+}
+.when {
+  margin-top: 10px;
+  font-size: 12px;
+  color: grey;
+}
